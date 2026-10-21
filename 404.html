@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Not Found - Divyasree Gardening</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <style>
+        .error-page-wrapper {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0b3d2c 0%, #175438 100%);
+            color: #ffffff;
+            padding: 40px 20px;
+        }
+        .error-card {
+            max-width: 580px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        .error-card img.logo {
+            max-width: 110px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        }
+        .error-code {
+            font-size: 80px;
+            font-weight: 800;
+            line-height: 1;
+            color: #a8e6cf;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+        .error-title {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        .error-desc {
+            font-size: 16px;
+            color: #e0e0e0;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .error-btn {
+            display: inline-block;
+            background: #ffffff;
+            color: #0b3d2c;
+            padding: 12px 32px;
+            border-radius: 30px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+        }
+        .error-btn:hover {
+            background: #a8e6cf;
+            color: #0b3d2c;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page-wrapper">
+        <div class="error-card">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="Divyasree Gardening" class="logo">
+            </a>
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-desc">Oops! The page you are looking for does not exist or has been moved. Let's get you back to the garden.</p>
+            <a href="index.html" class="error-btn"><i class="fa-solid fa-house me-2"></i> Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
